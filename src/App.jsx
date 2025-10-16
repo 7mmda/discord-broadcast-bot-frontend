@@ -6,7 +6,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Radio, Send, Users, UserCheck, UserX, Server, Activity } from 'lucide-react'
 import './App.css'
 
-const BACKEND_URL = 'https://discord-broadcast-bot-nal1.onrender.com';
+const BACKEND_URL = 'https://discord-broadcast-bot-backend.onrender.com';
 
 function App() {
   const [guilds, setGuilds] = useState([])
